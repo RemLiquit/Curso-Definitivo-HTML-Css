@@ -11,7 +11,11 @@ Descendiente “ ” se refiere a que un elemento esté dentro de otro por ejemp
   padding: 0;
   box-sizing: border-box;
 } */
-
-h2 ~ p {
+/* 
+div > p {
   color: red;
+} */
+
+div p {
+  color: blue;
 }
