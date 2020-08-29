@@ -1,0 +1,16 @@
+/* El combinador +(hermano adyacente) se usa para referirse a adyacente, es decir h2+p se refiere a todos los p que estén justo después de un h2 en el mismo contenedor.
+
+Hermano general ~ se refiere a un elemento en el mismo contenedor, por ejemplo h2 ~p se refiere a todos los p que tengan un h2 en su mismo contenedor.
+
+Hijo > se refiere a un elemento del cual tiene un padre directo, por ejemplo div > p se refiere a todos los p que sean hijos directos de un div.
+
+Descendiente “ ” se refiere a que un elemento esté dentro de otro por ejemplo div > p se refiere a un p que esté dentro de un div pero que no sea necesariamente hijo directo */
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+h2 + p {
+  color: red;
+}
