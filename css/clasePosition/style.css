@@ -1,21 +1,53 @@
+/* position:
+
+static
+absolut
+relative
+fixed
+sticky */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 .parent {
-  border: 2px dotted black;
-  display: inline-block;
+  display: block;
 }
 
 .box {
-  display: inline-block;
-  background-color: red;
-  width: 100px;
-  height: 100px;
+  background-color: transparent;
+  border: 1px solid wheat;
 }
 
-#two {
-  background-color: green;
+#titulo {
+  margin: 10px auto;
+  text-align: center;
+  padding: 5px;
+  width: 50%;
+  border-radius: 10px;
+  position: relative;
+  background-color: darkslategray;
+}
+
+#contenido {
+  border-radius: 10px;
+  margin: -20px auto;
+  padding: 10px;
+  width: 70vh;
+  min-height: 70vw;
+}
+
+.contenido-img {
+  width: 40vh;
+  display: flex;
+  margin: 10px auto;
 }
