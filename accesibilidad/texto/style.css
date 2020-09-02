@@ -1,0 +1,13 @@
+/* Al usar rem, la medida escala al mismo con el navegador asi damos la posibilidad de personas con problemas visuales consuman nuestro contenido */
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
